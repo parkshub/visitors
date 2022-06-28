@@ -1,7 +1,7 @@
 // this isn't working
 console.log('heroku found it?')
 
-document.querySelector('.delete').addEventListener('click', deleteIt)
+document.querySelector('.deleteButton').addEventListener('click', deleteIt)
 
 async function deleteIt() {
     const sName = this.parentNode.childNodes[1].innerText
