@@ -1,3 +1,4 @@
+// this isn't working
 document.querySelector('.delete').addEventListener('click', deleteIt)
 
 async function deleteIt() {
