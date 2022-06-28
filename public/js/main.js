@@ -1,4 +1,6 @@
 // this isn't working
+console.log('heroku found it?')
+
 document.querySelector('.delete').addEventListener('click', deleteIt)
 
 async function deleteIt() {
